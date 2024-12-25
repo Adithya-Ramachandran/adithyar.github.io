@@ -1,3 +1,103 @@
-# add the following to _config.yml file
-title: Adithya Ramachandran
-theme: minimal
+# Welcome to Jekyll!
+
+# Website settings
+title: "Adithya Ramachandran"
+description: "Personal website - Adithya Ramachandran"
+keywords: "adithya,ramachandran,fau,lme,pattern,recognition,lab,AI,machine,deep,learning,time,series,analysis,water,heat,demand,supply,district,smart,meters,forecasting,gisnetwork,pipes,utility"
+baseurl: "/"
+url: "http://adithyar.github.io"
+# url: "http://127.0.0.1:4000"
+
+# author
+author:
+  name: 'Adithya'
+  first_name: 'Adithya'
+  last_name: 'Ramachandran'
+  email: 'adithyaramachandran@gmail.com'
+  linkedin_username: 'https://www.linkedin.com/in/adithya-ramachandran94/'
+  # scholar_username: 'https://scholar.google.fr/citations?user=lPIo6ucAAAAJ&hl=en&oi=ao'
+  # github_username: 'mrastgoo'
+  # head_img: 'static/img/landing/picture.jpeg'
+  desc: "I am doctoral researcher at Friedrich Alexander University, Erlangen working on AI with a focus on sustainability in the field of urban supply infrastructure systems, specifically district heating and water distribution networks." 
+  
+
+# sections
+sections:
+  - id: 'about-me'
+    i18n: 'nav.about_me'
+    name: 'About'
+    tpl: 'about.html'
+    css: ''
+
+  - id: 'career'
+    i18n: 'nav.career'
+    name: 'Career'
+    tpl: 'career.html'
+    css: 'timeline'
+
+  - id: 'skills'
+    i18n: 'nav.skills'
+    name: 'Skills'
+    tpl: 'skills.html'
+    css: 'team'
+
+  - id: 'projects'
+    i18n: 'nav.projects'
+    name: 'Projects'
+    tpl: 'projects.html'
+    css: 'project'
+
+  - id: 'publications'
+    i18n: 'nav.publications'
+    name: 'Publications'
+    tpl: 'publications.html'
+    css: 'publications'
+
+# localization
+languages:
+  - locale: 'en'
+    # flag: 'static/img/flags/United-States.png'
+  # - locale: 'zh'
+  #   flag: 'static/img/flags/China.png'
+
+# blog img path
+# img_path: 'http://www.jack003.com/static/img/blog'
+
+# donate
+# donate:
+  # wechat: 'static/img/pay/wechat.png'
+  # alipay: 'static/img/pay/alipay.png'
+
+# comment
+# changyan:
+  # appid: cysfY7ULn
+  # conf: prod_861928934cecb7a18e15bedaed9dae29
+# disqus:
+  # name: jalpc
+  # public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+
+# share
+# bshare:
+  # uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+
+# baidu analytics
+# ba:
+  # uuid: 317acca9ef9255b934e46371e471431d
+
+# google analytics
+# ga:
+  # id: UA-73784599-1
+
+# growingIO
+# gio:
+  # id: a49d4901c7853da9
+
+# Build settings
+encoding: "utf-8"
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
