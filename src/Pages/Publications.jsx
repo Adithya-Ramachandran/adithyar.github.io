@@ -89,7 +89,9 @@ const Publications = () => {
             <span className="font-semibold text-blue-600 dark:text-blue-400">
               Research
             </span>{" "}
-            Publications
+            <span className="font-semibold">
+              Publications
+            </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Peer-reviewed conference papers and journal articles showcasing my

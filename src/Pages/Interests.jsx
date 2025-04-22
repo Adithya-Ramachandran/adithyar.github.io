@@ -10,10 +10,12 @@ const Interests = () => {
             <span className="font-semibold text-blue-600 dark:text-blue-400">
               Personal
             </span>{" "}
-            Interests
+            <span className="font-semibold">
+              Interests
+            </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            My passions beyond professional work
+            Beyond Professional Work
           </p>
         </div>
 

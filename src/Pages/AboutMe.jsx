@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePicture from "../assets/profilepicture1.png";
+import ProfilePicture from "../assets/profilepicture2.png";
 
 const AboutMe = () => {
   return (
@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Text Content */}
-          <div className="lg:w-1/2 space-y-8">
+          <div className="lg:w-3/2 space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-light leading-tight">
                 Hi, I'm{" "}
@@ -24,13 +24,16 @@ const AboutMe = () => {
               </h2>
             </div>
 
-            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I work on digitizing utility infrastructure by creating a unified
-              data repository for building digital twins. This involves
-              integrating different types of data, including time series,
-              images, and GIS-based graphs. I enjoy analyzing complex datasets
-              and solving real-world problems with practical AI solutions
+            <p className="text-lg text-justify text-gray-700 dark:text-gray-300 leading-relaxed">
+            Data Scientist and Doctoral Researcher with deep expertise in time-series forecasting, large-scale data engineering, and deploying production ML systems. Delivered significant accuracy gains and efficiency improvements in demand modeling using Python, SQL, and PyTorch. Skilled in handling multi-modal data, implementing automated MLOps workflows, unsupervised pattern discovery, and real-time anomaly detection to support critical decision-making and resource management.
             </p>
+
+            
+            <p className="text-lg text-justify text-gray-700 dark:text-gray-300 leading-relaxed">
+            At heart, I am a problem-solver who enjoys leveraging an analytical mindset to navigate complexity. Seeing the direct connection between rigorous data analysis, innovative modeling, and meaningful outcomes is what truly drives my work. I am passionate about using data to drive impactful decisions and am always eager to learn and grow in this ever-evolving field. I thrive in collaborative environments where I can share knowledge and learn from others, and I am excited about the opportunity to contribute to projects that make a difference.
+            </p>
+
+
 
             {/* Contact Info */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
@@ -182,7 +185,7 @@ const AboutMe = () => {
 
           {/* Profile Picture */}
           <div className="mt-12 lg:mt-0 lg:w-1/2 flex justify-center">
-            <div className="relative w-full max-w-md">
+            <div className="relative w-full max-w-sm -mt-35">
               <div className="overflow-hidden rounded-xl shadow-lg">
                 <img
                   className="w-full h-full object-cover"
